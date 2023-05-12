@@ -13,7 +13,7 @@
         })
             .done(function (msg) {
                //alert("Data Saved: " + msg);
-                $("#dvKontenerTabelki").html(msg);
+                $(".row div").first().html(msg);
             });
 
 

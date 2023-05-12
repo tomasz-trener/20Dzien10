@@ -1,7 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Wyszukiwarka.aspx.cs" Inherits="P03AplikacjaZawodnicy.Wyszukiwarka" %>
 
 
- <table class="table">
+   <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Simple Table</h4>
+            </div>
+
+            <div style="margin-left:15px">
+                 <a href="SzczegolyZawodnikaForm.aspx" >Stwórz nowy rekord</a>
+            </div>
+           
+
+            <div class="card-body">
+                <div id="dvKontenerTabelki" class="table-responsive">
+                    <table class="table">
                         <thead class=" text-primary">
                             <th>Nazwa
                       </th>
@@ -34,3 +46,6 @@
                             %>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </div>

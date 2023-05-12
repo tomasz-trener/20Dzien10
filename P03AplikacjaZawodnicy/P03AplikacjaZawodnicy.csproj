@@ -97,6 +97,7 @@
     <Content Include="stylTestowy.css" />
     <Content Include="SzczegolyZawodnikaForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="Wyszukiwarka.aspx" />
     <Content Include="WyszukiwarkaZawodnikow.js" />
   </ItemGroup>
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="SzczegolyZawodnikaForm.aspx.designer.cs">
       <DependentUpon>SzczegolyZawodnikaForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Wyszukiwarka.aspx.cs">
       <DependentUpon>Wyszukiwarka.aspx</DependentUpon>
