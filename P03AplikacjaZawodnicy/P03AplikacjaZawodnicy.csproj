@@ -92,8 +92,11 @@
     <Content Include="assets\js\plugins\chartjs.min.js" />
     <Content Include="assets\js\plugins\perfect-scrollbar.jquery.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="DodanieKalendarza.js" />
     <Content Include="HtmlPage1.html" />
     <Content Include="images\loading.gif" />
+    <Content Include="jsLib\jqueryui\jquery-ui.min.css" />
+    <Content Include="jsLib\jqueryui\jquery-ui.min.js" />
     <Content Include="StronaTestowaZMaster.aspx" />
     <Content Include="stylTestowy.css" />
     <Content Include="SzczegolyZawodnikaForm.aspx" />

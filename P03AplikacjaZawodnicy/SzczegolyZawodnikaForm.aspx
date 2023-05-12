@@ -46,6 +46,7 @@
                                 <div class="form-group">
                                     <label>Data urodzenia</label>
                                      <asp:TextBox ID="txtDataUr" CssClass="form-control" runat="server"></asp:TextBox>
+                                             
                              </div>
                             </div>
                         </div>
@@ -121,7 +122,11 @@
             </div>
         </div>
     </div>
+
+    <script src="DodanieKalendarza.js"></script>
 </asp:Content>
+
+
 
 
 
