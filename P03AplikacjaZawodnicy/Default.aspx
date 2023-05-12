@@ -15,7 +15,7 @@
            
 
             <div class="card-body">
-                <div class="table-responsive">
+                <div id="dvKontenerTabelki" class="table-responsive">
                     <table class="table">
                         <thead class=" text-primary">
                             <th>Nazwa
