@@ -4,6 +4,12 @@
 
     $("#btnSzukaj").on("click", function () {
 
+
+        $(".card-title").html("Ładowanie...");
+
+        var obrazek = $("#dvLadowanieContainer").html();
+        $("#dvKontenerTabelki").html(obrazek);
+
         var wartoscZInputa = $("#txtSzukaj").val();
         //debugger;
         $.ajax({

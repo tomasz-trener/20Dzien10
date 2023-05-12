@@ -10,6 +10,7 @@ namespace P01AjaxWstep.serv
 {
     public partial class Obliczenia : System.Web.UI.Page
     {
+        public string JSON;
         protected void Page_Load(object sender, EventArgs e)
         {
             //  string napis = "ala ma kota2";
@@ -31,9 +32,9 @@ namespace P01AjaxWstep.serv
             };
 
             JavaScriptSerializer ser = new JavaScriptSerializer();
-            string json= ser.Serialize( wynik1 );
+            JSON = ser.Serialize( wynik1 );
             
-            Response.Write( json );
+            //Response.Write( json );
 
             //Response.Write(wynik +" " + dlugoscWyniku + " " + s);
 
